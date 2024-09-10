@@ -1,0 +1,972 @@
+.homepage {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.homepage .hero {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 94px;
+  padding: 40px 0px 184px;
+  position: relative;
+  flex: 0 0 auto;
+  background-image: url(./img/hero.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.homepage .menu {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 72px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .burger-menu {
+  position: relative;
+  width: 22px;
+  height: 20px;
+}
+
+.homepage .navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 50px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #979797;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .button {
+  all: unset;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  border: 2px solid;
+  border-color: #e9c664;
+  display: inline-flex;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+}
+
+.homepage .text {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .logo {
+  position: relative;
+  width: 872px;
+  height: 582px;
+}
+
+.homepage .overlap-group {
+  position: relative;
+  width: 864px;
+  height: 586px;
+  top: -2px;
+}
+
+.homepage .text-wrapper-2 {
+  position: absolute;
+  width: 864px;
+  height: 162px;
+  top: 210px;
+  left: 0;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 120px;
+  text-align: center;
+  letter-spacing: 6px;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-3 {
+  position: absolute;
+  width: 37px;
+  top: 528px;
+  left: 258px;
+  font-family: "Bebas Neue", Helvetica;
+  font-weight: 400;
+  color: #e9c664;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-4 {
+  position: absolute;
+  width: 49px;
+  top: 528px;
+  left: 603px;
+  font-family: "Bebas Neue", Helvetica;
+  font-weight: 400;
+  color: #e9c664;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .icon-scissors {
+  position: absolute;
+  width: 97px;
+  height: 164px;
+  top: 0;
+  left: 410px;
+}
+
+.homepage .square {
+  position: absolute;
+  width: 431px;
+  height: 506px;
+  top: 80px;
+  left: 242px;
+}
+
+.homepage .text-2 {
+  position: absolute;
+  width: 268px;
+  top: 454px;
+  left: 305px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .icon-mustache {
+  position: absolute;
+  width: 176px;
+  height: 59px;
+  top: 365px;
+  left: 368px;
+}
+
+.homepage .services {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .img {
+  position: relative;
+  width: 1440px;
+  height: 1374px;
+}
+
+.homepage .text-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 70px;
+  left: 591px;
+}
+
+.homepage .text-4 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #e9c664;
+  font-size: 19px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-5 {
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  white-space: nowrap;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .cards {
+  flex-wrap: wrap;
+  width: 724px;
+  gap: 50px 50px;
+  position: absolute;
+  top: 301px;
+  left: 72px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.homepage .card {
+  display: flex;
+  width: 337px;
+  height: 337px;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+  border: 2px solid;
+  border-color: #e9c664;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.homepage .icon-scissors-2 {
+  position: relative;
+  width: 65px;
+  height: 97px;
+  margin-top: -10.5px;
+}
+
+.homepage .text-6 {
+  width: fit-content;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .p {
+  width: 259px;
+  height: 97px;
+  margin-bottom: -7px;
+  margin-left: -11px;
+  margin-right: -11px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .icon-razor {
+  position: relative;
+  width: 126px;
+  height: 113px;
+  margin-top: -16.5px;
+}
+
+.homepage .text-7 {
+  width: 206px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-8 {
+  width: 323px;
+  height: 93px;
+  margin-bottom: -13px;
+  margin-left: -43px;
+  margin-right: -43px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .icon-beard {
+  position: relative;
+  width: 94px;
+  height: 82px;
+  margin-top: -12px;
+}
+
+.homepage .text-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-10 {
+  width: 319px;
+  height: 115px;
+  margin-bottom: -8.5px;
+  margin-left: -41px;
+  margin-right: -41px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .card-2 {
+  display: flex;
+  width: 337px;
+  height: 337px;
+  justify-content: center;
+  gap: 25px;
+  padding: 99px 50px 50px;
+  border: 2px solid;
+  border-color: #e9c664;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.homepage .icon-ustache {
+  position: relative;
+  width: 110px;
+  height: 34px;
+  margin-top: -21.5px;
+}
+
+.homepage .text-11 {
+  align-self: stretch;
+  height: 133px;
+  margin-bottom: -18px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1085px;
+  left: 341px;
+  border: 2px solid;
+  border-color: #e9c664;
+  display: inline-flex;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+}
+
+.homepage .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #e9c664;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .counter {
+  display: flex;
+  width: 1440px;
+  height: 326px;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  padding: 60px 72px;
+  position: relative;
+  background-color: #212121;
+}
+
+.homepage .card-3 {
+  display: inline-flex;
+  gap: 35px;
+  align-self: stretch;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.homepage .icon-razor-2 {
+  position: relative;
+  width: 41.18px;
+  height: 73.94px;
+  margin-top: -1px;
+}
+
+.homepage .text-12 {
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #e9c664;
+  font-size: 70px;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .icon-scissors-3 {
+  position: relative;
+  width: 48.17px;
+  height: 72.39px;
+  margin-top: -1px;
+}
+
+.homepage .card-4 {
+  display: inline-flex;
+  gap: 47px;
+  align-self: stretch;
+  flex: 0 0 auto;
+  opacity: 0.1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.homepage .icon-barbershop {
+  position: relative;
+  width: 60.7px;
+  height: 51.68px;
+  margin-top: -1.5px;
+}
+
+.homepage .banner {
+  width: 1440px;
+  height: 530px;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.homepage .bg-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.homepage .bg {
+  display: flex;
+  height: 407px;
+  align-items: center;
+  gap: 60px;
+  padding: 0px 140px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #e9c664;
+}
+
+.homepage .text-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .text-15 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-16 {
+  width: 541px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+  background-color: #000000;
+  display: inline-flex;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+}
+
+.homepage .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -60.5px;
+  margin-bottom: -60.5px;
+  margin-right: -3px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.homepage .testimonials {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 60px 72px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.homepage .reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage .text-17 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .text-18 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #e9c664;
+  font-size: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-19 {
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  white-space: nowrap;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .cards-2 {
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.homepage .card-5 {
+  display: inline-flex;
+  gap: 50px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.homepage .img-3 {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+
+.homepage .text-20 {
+  position: relative;
+  width: 261px;
+  height: 170px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .name {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #e9c664;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-21 {
+  position: relative;
+  width: 311px;
+  height: 164px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-22 {
+  position: relative;
+  width: 310px;
+  height: 164px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .footer {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  gap: 35px;
+  padding: 60px 72px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.homepage .text-23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage .text-24 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-25 {
+  width: 1226px;
+  transform: rotate(-0.12deg);
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .cards-3 {
+  justify-content: center;
+  gap: 75px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.homepage .card-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -5px;
+}
+
+.homepage .icon-location {
+  position: relative;
+  width: 23px;
+  height: 28px;
+  margin-top: -1px;
+}
+
+.homepage .text-26 {
+  width: fit-content;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.homepage .text-27 {
+  width: 609px;
+  height: 80px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .card-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .icon-envelope {
+  position: relative;
+  width: 28px;
+  height: 22px;
+  margin-top: -1px;
+}
+
+.homepage .text-28 {
+  width: 182px;
+  height: 50px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .card-8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .icon-phone {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-top: -1px;
+}
+
+.homepage .text-29 {
+  width: fit-content;
+  opacity: 0.21;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .text-30 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .card-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -5px;
+}
+
+.homepage .icon-clock {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  margin-top: -1px;
+}
+
+.homepage .text-wrapper-6 {
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage .divider {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 20px;
+}
